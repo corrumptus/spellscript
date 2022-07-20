@@ -18,7 +18,7 @@ https://www.python.org/downloads/ ou sua loja de aplicativos(procure a última v
 - digitar "python3 spellscript.py"
 
 ## 2º
-- entrar na pasta "C:\Users\*nome do seu usuário*\spellscript"
+- entrar na pasta "C:\Users\\*nome do seu usuário*\spellscript"
 (caso você não saiba o seu nome de usuário entre em "C:\Users" e pesquise nela por "spellscript")
 - clique em spellscript.py
 - abra o arquivo de texto "players_atual.txt"
@@ -50,7 +50,7 @@ you have 2 options for the usage:
 - write "python3 spellscript.py"
 
 ## 2º
-- go to C:\Users\*user name*\spellscript
+- go to C:\Users\\*username*\spellscript
 (if you don't know what are your user name go to C:\Users and search for spellscript)
 - click(2 times) in spellscript.py
 - click(2 times) in players_atual.txt

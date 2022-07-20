@@ -38,7 +38,7 @@ how to install?
 - The script needs an interpreter to work, so if you dont have one, try:
 https://www.python.org/downloads/ or your app store(download the ultimate version)
 
-hot to use?
+how to use?
 you have 2 options for the usage:
 
 1º

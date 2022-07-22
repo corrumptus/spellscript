@@ -5,21 +5,22 @@ Bem vindo, o meu script que mostra os players de uma partida de spellbreak.
 O script mostrará a quantidade de players e qual os seus respectivos nomes.
 
 # método de instalação:
-- abrir o cmd
-- digitar "git clone https://github.com/corrumptus/spellscript.git"
-- o script precisa de um interpretador para funcionar corretamente, então caso não tenha use:
-https://www.python.org/downloads/ ou sua loja de aplicativos(procure a última versão)
+- baixe os arquivos pelo github
+- entre na pasta "C:\Users"
+- entre na pasta do seu usuário 
+- cole a pasta aqui (descompactados)
+- abra o cmd (Command Prompt)
+- digite "python3"
 
-# Para utilizar esse script você pode optar por 2 coisas:
+# Para utilizar esse script você pode optar por 2 formas:
 
 ## 1º
-- abrir o cmd
-- digitar "cd spellscript"
-- digitar "python3 spellscript.py"
+- abra o cmd (Command Prompt)
+- digite "cd spellscript-main" (ou apague o "-main" do nome da pasta e escreva apenas "cd spellscript")
+- digite "python3 spellscript.py"
 
 ## 2º
-- entrar na pasta "C:\Users\\*nome do seu usuário*\spellscript"
-(caso você não saiba o seu nome de usuário entre em "C:\Users" e pesquise nela por "spellscript")
+- entre na pasta "C:\Users\\*nome do seu usuário*\spellscript"
 - clique em spellscript.py
 - abra o arquivo de texto "players_atual.txt"
 
@@ -36,24 +37,25 @@ Hi, good see you on my script which let you see the players name of the match.
 The spellscript will show the amount of players and the names.
 
 # how to install?
-- go to cmd(Command Prompt)
-- write "git clone https://github.com/corrumptus/spellscript.git"
-- The script needs an interpreter to work, so if you dont have one, try:
-https://www.python.org/downloads/ or your app store(download the ultimate version)
+- download the archives on the github
+- go to the "C:\Users" directory
+- go to your user directory
+- paste the archives here (unziped)
+- go to cmd (Command Prompt)
+- write "python3"
 
 # how to use?
 you have 2 options for the usage:
 
 ## 1º
-- go to cmd(Command Prompt)
-- write "cd spellscript"
+- go to cmd (Commando Prompt)
+- write "cd spellscript-main" (or clean "-main" to the name and just write "cd spellscript")
 - write "python3 spellscript.py"
 
 ## 2º
-- go to C:\Users\\*username*\spellscript
-(if you don't know what are your user name go to C:\Users and search for spellscript)
-- click(2 times) in spellscript.py
-- click(2 times) in players_atual.txt
+- go to "C:\Users\\*username*\spellscript-main" (or clean "-main" to the name and just write "cd spellscript")
+- click (2 times) in "spellscript.py"
+- click (2 times) in "players_atual.txt"
 
 # notes:
 if you try the second option be careful beacuse:

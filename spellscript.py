@@ -23,7 +23,7 @@ arqpartida.close()
 for i in range(len(Vpartida)):
     n = Vpartida[i].find('"DisplayName"') + 15
     Vpartida[i] = Vpartida[i][n:]
-    k = Vpartida[i].find('","CosmeticLoadout":{"')
+    k = Vpartida[i].find('","CosmeticLoadout":')
     Vpartida[i] = Vpartida[i][:k]
 
 #pegar os players da partida atual
@@ -41,7 +41,6 @@ Vpartida = Vpartida[len(Vsessao)-1:]
 
 #atualiza o arquivo da sessão
 arqsessao = open('Sessao.txt', 'w', encoding = 'utf-8')
-arqsessao.write('log de referencia: ' + LastestFile() + '\n')
 for i in range(len(Vsessao)):
 	arqsessao.write(Vsessao[i] + '\n')
 arqsessao.write('\n'.join(Vpartida))

@@ -33,22 +33,22 @@ caso isso aconteça você deverá abrir o arquivo Salvação.txt para ver quais 
 
 ![toxic gauntlet](https://static.wikia.nocookie.net/spellbreak_gamepedia_en/images/1/12/Toxic_Gauntlet_Round_3.1.png/revision/latest?cb=20210506222721)![thunder gauntlet](https://static.wikia.nocookie.net/spellbreak_gamepedia_en/images/f/f0/Lightning_Gauntlet_Round_3.1.png/revision/latest?cb=20210506222720)
 
-Hi, good see you on my script which let you see the players name of the match.
-The spellscript will show the amount of players and the names.
+Hi, good to see you here. My script alows you see the name of the players in the match.
+The spellscript will show the total amount of players and their names.
 
 # how to install?
-- download the archives on the github
+- download the files on the github
 - go to the "C:\Users" directory
 - go to your user directory
-- paste the archives here (unziped)
+- paste the files here (unziped)
 - go to cmd (Command Prompt)
 - write "python3"
 
 # how to use?
-you have 2 options for the usage:
+you have 2 options:
 
 ## 1º
-- go to cmd (Commando Prompt)
+- go to cmd (Command Prompt)
 - write "cd spellscript-main" (or clean "-main" to the name and just write "cd spellscript")
 - write "python3 spellscript.py"
 
@@ -58,9 +58,9 @@ you have 2 options for the usage:
 - click (2 times) in "players_atual.txt"
 
 # notes:
-if you try the second option be careful beacuse:
-if you use the script before the time to select a portal in the map probably you dont will see all the players. 
-if you are in the same match and use the script for the second time, you will see the other players(sometimes, nobody)
-but dont worry, click 2 times in the "Salvação.txt" to see (in the end) the players that script catches.
+Be careful if you try the second option.
+If you use the script before the time to select a portal in the map you will probably not see all the players, as they might still be on the loading screen.
+If you run the script twice in a match you will see other players' names (or nobody).
+But don't worry, double click the "Salvação.txt" to see (in the end) the players that the script has listed.
 
 ![frost gauntlet](https://static.wikia.nocookie.net/spellbreak_gamepedia_en/images/c/ca/Frost_Gauntlet_Round_3.1.png/revision/latest?cb=20210506222719)![wind gauntlet](https://static.wikia.nocookie.net/spellbreak_gamepedia_en/images/b/b6/Wind_Gauntlet_Round_3.1.png/revision/latest?cb=20210506222723)

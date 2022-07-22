@@ -8,7 +8,7 @@ O script mostrará a quantidade de players e qual os seus respectivos nomes.
 - baixe os arquivos pelo github
 - entre na pasta "C:\Users"
 - entre na pasta do seu usuário 
-- cole a pasta aqui (descompactados)
+- cole a pasta aqui (descompactada)
 - abra o cmd (Command Prompt)
 - digite "python3"
 

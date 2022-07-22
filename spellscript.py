@@ -15,12 +15,11 @@ def LastestFile():
 arqpartida = open(LastestFile(), 'r', encoding = 'utf-8')
 Vpartida = []
 for i in arqpartida.readlines():
-    if '"DisplayName"' in i:
+    if ('"DisplayName"' in i) and ('#' not in i):
         Vpartida.append(i.replace('\n', ''))
 arqpartida.close()
 
 #extrair nomes
-Vpartida = Vpartida[1:]
 for i in range(len(Vpartida)):
     n = Vpartida[i].find('"DisplayName"') + 15
     Vpartida[i] = Vpartida[i][n:]
@@ -30,13 +29,19 @@ for i in range(len(Vpartida)):
 #pegar os players da partida atual
 arqsessao = open('Sessao.txt', 'r', encoding = 'utf-8')
 Vsessao = []
-for i in arqsessao.readlines():
+for i in arqsessao:
 	Vsessao.append(i.replace('\n', ''))
-Vpartida = Vpartida[len(Vsessao):]
-arqsessao.close()
+if Vsessao[0][19:] != LastestFile():
+    arqsessao.close()
+    arqsessao = open('Sessao.txt', 'w', encoding = 'utf-8')
+    arqsessao.write('log de referencia: ' + LastestFile() + '\n')
+    arqsessao.close()
+    Vsessao = ['log de referencia: ' + LastestFile() + '\n']
+Vpartida = Vpartida[len(Vsessao)-1:]
 
 #atualiza o arquivo da sessão
 arqsessao = open('Sessao.txt', 'w', encoding = 'utf-8')
+arqsessao.write('log de referencia: ' + LastestFile() + '\n')
 for i in range(len(Vsessao)):
 	arqsessao.write(Vsessao[i] + '\n')
 arqsessao.write('\n'.join(Vpartida))
